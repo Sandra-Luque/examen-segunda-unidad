@@ -1,0 +1,130 @@
+html(lang="es")
+	head
+		title Accesories
+		meta(charset="utf-8")
+		meta( http-equiv="X-UA-Compatible",content="IE=edge")
+		meta(name="viewport",content="width=device-width, initial-scale=1")
+
+		link(rel="stylesheet",href="css/bootstrap.min.css")
+		link(rel="stylesheet",href="css/font-awesome.min.css")
+		link(rel="stylesheet",href="css/ionicons.min.css")
+		link(rel="stylesheet",href="css/main.css")
+		link(rel="stylesheet",href="css/responsiveslides.css")
+		link(href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css')
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="js/bootstrap.min.js")
+		script(src="js/responsiveslides.min.js")
+		script
+			$(function() {
+			$(".rslides").responsiveSlides();
+			});
+	body
+		.cont-hero
+			.hero
+				.container
+					.row
+						.col-sm-2
+							.defaul
+								p Defaul Welcome Msg!
+						.col-sm-10
+							.leng
+								nav.navbar.pull-right( role="navigation" )
+											ul.nav.navbar-nav
+												li
+													img(src="images/flag1.png")
+												li.dropdown
+													a.dropdown-toggle( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) Lenguage
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li
+															a( href="#" ) English
+																img(src="images/flag1.png").pull-left
+														li
+															a( href="#" ) Fances
+																img(src="images/flag2.png").pull-left
+
+												li.dropdown
+													a.dropdown-toggle.ion-social-usd( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 Currency
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li: a( href="#" ) &#8364 Euro
+														li: a( href="#" ) &#36 Dolar
+														li: a( href="#" ) &#8364 Pesos
+
+												li.dropdown
+													a.dropdown-toggle.ion-android-person( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 My Account
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li: a( href="#" ) &#174 Register
+														li: a( href="#" ) &#64 Login
+		.hero-2
+				.container
+					.col-sm-4
+						.opentime
+							i.ion-ios-clock-outline.pull-left
+							P OPWNING TIME
+							small 9.00 AM
+					.col-sm-4
+						.logo
+							img(src="images/logo.png")
+
+					.col-sm-4
+						.search
+							.from-group.pull-right
+								input.from-control(type="text",placeholder="search")
+								button.btn.ion-ios-search-strong(type="submit")
+			
+		.menu
+			.container
+				.row
+					.col-sm-9
+						nav
+							ul.nav.navbar-nav
+								li.active
+									a(href="index.html") HOME
+								li
+									a(href="contac.html") CONTACTUS
+					.col-sm-3
+						.pull-right
+							button.btn.dropdown-toggle(type="button")
+								i.ion-ios-cart.pull-left
+								span My Cart
+								br
+								small 2 items!-$244 00
+	#contactos
+		.container
+			.col-sm-6
+				h1 CONTACTUS
+			.col-sm-6
+				.cont-info-contac
+					P Contact info
+					p phone:0(1234) 567890
+					a(href="#") Mil:info@roadthemes.com
+					p Address: No 40 Baria Sreet 133/2 NewYork City. NY. United
+					p States.
+	#formulario
+		.container
+			.row
+				.col-sm-6
+					.map
+						iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.7596716183175!2d-74.16600508428763!3d40.54689845563604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24bac3d0266b3%3A0x4c56d8ea73e09265!2s133+Maria+Ln%2C+Staten+Island%2C+NY+10312!5e0!3m2!1ses-419!2s!4v1464971332823" width="400" height="300" frameborder="0" style="border:0" allowfullscreen)
+				.col-sm-6
+					.row
+						.col-sm-6.spacing
+							input.form-control(type="text" placeholder="First name")
+						.col-sm-6.spacing
+							input.form-control(type="text" placeholder="Last name")
+						.col-sm-6.spacing
+							input.form-control(type="text" placeholder="Email")
+						.col-sm-6.spacing
+							input.form-control(type="text" placeholder="Wbsite")
+					.row
+						.col-sm-12.spacing
+							input.form-control(type="text" placeholder="Subject")
+						.col-sm-12.spacing
+							textarea.form-control(rows="9"  placeholder="Message")
+					button.btn.pull.right.pull-right SEND
+
+
+

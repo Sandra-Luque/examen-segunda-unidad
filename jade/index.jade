@@ -1,0 +1,455 @@
+doctype html5
+html(lang="es")
+	head
+		title Accesories
+		meta(charset="utf-8")
+		meta( http-equiv="X-UA-Compatible",content="IE=edge")
+		meta(name="viewport",content="width=device-width, initial-scale=1")
+
+		link(rel="stylesheet",href="css/bootstrap.min.css")
+		link(rel="stylesheet",href="css/font-awesome.min.css")
+		link(rel="stylesheet",href="css/ionicons.min.css")
+		link(rel="stylesheet",href="css/main.css")
+		link(rel="stylesheet",href="css/responsiveslides.css")
+		link(href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css')
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+		script(src="js/bootstrap.min.js")
+		script(src="js/responsiveslides.min.js")
+		script
+			$(function() {
+			$(".rslides").responsiveSlides();
+			});
+	body
+		.cont-hero
+			.hero
+				.container
+					.row
+						.col-sm-2
+							.defaul
+								p Defaul Welcome Msg!
+						.col-sm-10
+							.leng
+								nav.navbar.pull-right( role="navigation" )
+											ul.nav.navbar-nav
+												li
+													img(src="images/flag1.png")
+												li.dropdown
+													a.dropdown-toggle( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) Lenguage
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li
+															a( href="#" ) English
+																img(src="images/flag1.png").pull-left
+														li
+															a( href="#" ) Fances
+																img(src="images/flag2.png").pull-left
+
+												li.dropdown
+													a.dropdown-toggle.ion-social-usd( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 Currency
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li: a( href="#" ) &#8364 Euro
+														li: a( href="#" ) &#36 Dolar
+														li: a( href="#" ) &#8364 Pesos
+
+												li.dropdown
+													a.dropdown-toggle.ion-android-person( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 My Account
+														span.caret
+													ul.dropdown-menu( role="menu" )
+														li: a( href="#" ) &#174 Register
+														li: a( href="#" ) &#64 Login
+		.hero-2
+				.container
+					.col-sm-4
+						.opentime
+							i.ion-ios-clock-outline.pull-left
+							P OPWNING TIME
+							small 9.00 AM
+					.col-sm-4
+						.logo
+							img(src="images/logo.png")
+
+					.col-sm-4
+						.search
+							.from-group.pull-right
+								input.from-control(type="text",placeholder="search")
+								button.btn.ion-ios-search-strong(type="submit")
+			
+		.menu
+			.container
+				.row
+					.col-sm-9
+						nav
+							ul.nav.navbar-nav
+								li.active
+									a(href="index.html") HOME
+								li
+									a(href="contac.html") CONTACTUS
+					.col-sm-3
+						.pull-right
+							button.btn.dropdown-toggle(type="button")
+								i.ion-ios-cart.pull-left
+								span My Cart
+								br
+								small 2 items!-$244 00
+		.banner
+			ul.rslides
+				li
+					img(src="images/slider1.jpg")
+					h1 AUTUMN/WINTER LOOKBOOK
+						small - 2016 COLLECTION -
+				li
+					img(src="images/slider2.jpg")
+					h1 AUTUMN/WINTER LOOKBOOK
+						small - 2016 COLLECTION -
+		.slider
+			.container
+				.row
+					.col-sm-5
+						.img-1
+					.col-sm-7
+						.img-2
+					.lastest
+						hr.pull-left
+						i.ion-ios-arrow-left
+						span LASTEST
+						span BESTSELLER
+						span SALE
+						i.ion-ios-arrow-right
+						hr.pull-right
+		.lis-produc
+			.container
+				.row
+					.col-sm-3
+						a(href="#")
+							.item-img
+								.img-item
+									img(src="images/a1.jpg")
+								p Deliver Wide
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+					.col-sm-3
+						a(href="#")
+							.item-img
+								.img-item
+									img(src="images/b1.jpg")
+								p Deliver Wide
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+					.col-sm-3
+						a(href="#")
+							.item-img
+								.img-item
+									img(src="images/c1.jpg")
+								p Deliver Wide
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+					.col-sm-3
+						a(href="#")
+							.item-img
+								.img-item
+									img(src="images/d1.jpg")
+								p Deliver Wide
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+		.clientes
+				.container
+					.row
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client1.jpg")
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client2.jpg")
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client3.jpg")
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client4.jpg")
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client5.jpg")
+						.col-sm-2
+							a(href="#")
+								.item-cliente
+									img(src="images/client6.jpg")
+						.col-sm-2
+		.lista-produc-2
+				.container
+					.row
+						.col-sm-4
+							.cont-img-pr-2
+								a(href="#").pull-left
+									img(src="images/a2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+						.col-sm-4
+							.cont-img-pr-2
+								a(href="#").pull-left
+									img(src="images/b2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+						.col-sm-4
+							.cont-img-pr-2
+								a(href="#").pull-left
+									img(src="images/c2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+						.col-sm-4
+							.cont-img-pr-2
+								a(href="#").pull-left
+									img(src="images/d2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+						.col-sm-4
+							.cont-img-pr-2
+									a(href="#").pull-left
+										img(src="images/e2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+						.col-sm-4
+							.cont-img-pr-2
+								a(href="#").pull-left
+									img(src="images/f2.jpg").img-thumbnail
+							.cont-peroduc-2.pull-left
+								p Deliver Wide
+								p $ 218.00
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star
+								i.ion-ios-star-outline
+								i.ion-ios-star-outline
+								a.add-carrito(href="#")
+									.coont-carrito
+										i.ion-ios-cart.pull-left
+										p Add to Cart
+		.blog
+			.container
+				.row
+					.col-sm-3
+						.item-blog
+							.cont-img-blog
+								img(src="images/blog1.jpg")
+							a(hreft="#") TEHE SAMPLE HEADING TITLE 
+							br
+							small 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a.read(href="#") Read more...
+					.col-sm-3
+						.item-blog
+							.cont-img-blog
+								img(src="images/blog1.jpg")
+							a(hreft="#") TEHE SAMPLE HEADING TITLE 
+							br
+							small 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a.read(href="#") Read more...
+					.col-sm-3
+						.item-blog
+							.cont-img-blog
+								img(src="images/blog1.jpg")
+							a(hreft="#") TEHE SAMPLE HEADING TITLE 
+							br
+							small 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a.read(href="#") Read more...
+					.col-sm-3
+						.item-blog
+							.cont-img-blog
+								img(src="images/blog1.jpg")
+							a(hreft="#") TEHE SAMPLE HEADING TITLE 
+							br
+							small 27/11/2015
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+							a.read(href="#") Read more...
+		.order
+			.container
+				.row
+					.col-xs-12.col-md-4
+						.sec-order
+							i.fa.fa-phone-square.pull-left
+							.order-right
+								p ORDER ONLINE NOW
+								small Call Us:(0123)456789
+					.col-xs-12.col-md-4
+						.sec-order
+							i.fa.fa-plane.pull-left
+							.order-right
+								p FREE WORLDWIDE SHIPPING
+								small On Ordes $100
+					.col-xs-12.col-md-4
+						.sec-order
+							i.fa.fa-money.pull-left
+							.order-right
+								p 30 DAYS MONEY BACK 100%
+								small Satisfaction Guarante
+		footer.footer
+			.footer-top
+				.container
+					.col-sm-3
+						.item-footer
+							h5 ACCESSORIES
+							.cont-info-footer
+								p Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+							ul
+								li.item-icon-social
+									.icom-social
+										a(href="#")
+											.item-social
+												i.ion-social-facebook
+								
+								li.item-icon-social
+									.icom-social
+										a(href="#")
+											.item-social
+												i.ion-social-twitter
+								
+								li.item-icon-social
+									.icom-social
+										a(href="#")
+											.item-social
+												i.ion-social-rss
+								
+								li.item-icon-social
+									.icom-social
+										a(href="#")
+											.item-social
+												i.ion-social-skype
+								
+								li.item-icon-social
+									.icom-social
+										a(href="#")
+											.item-social
+												i.ion-social-dribbble-outline
+
+					.col-sm-2
+						.item-footer
+							h5 MY ACCOUNT
+							.cont-info-footer
+								ul
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  My Account
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#") &#160 Order   History
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  Wish List  &#160 &#160
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  Newslette
+					.col-sm-2
+						.item-footer
+							h5 INFORMATION
+							.cont-info-footer
+								ul
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  About Us
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  Delivery Information
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#")&#160  Privacy Policy
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#") &#160 Terms & Conditions
+					.col-sm-2
+						.item-footer
+							h5 EXTRAS
+							.cont-info-footer
+								ul
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#") &#160  Brands
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#") &#160  Gift Vouchers
+									li.item-lis-footer 
+										a.ion-android-arrow-dropright(href="#") Affiliates &#160 &#160
+									li.item-lis-footer
+										a.ion-android-arrow-dropright(href="#") &#160  Specials
+					.col-sm-3
+						.item-footer
+							h5 ABOUT US
+							.cont-info-footer
+								.marmora
+									i.fa.fa-map-marker
+									span 8901 Marmora Road, Glasgow D04 89 GR, New York
+								.marmora
+									i.fa.fa-phone
+									span (0123)456789
+								.marmora
+									i.fa.fa-envelope
+									span admin@bootexperts.com
+			.footer-bottom
+				.container
+					.row
+						.col-xs-12.col-sm-6.col-md-6
+							p Copyright © 2015
+								span  BootExperts.
+								span All rights reserved.
+						.col-xs-12.col-sm-6.col-md-6
+							.footer-cart.pull-right
+								img(src="images/payment.png")

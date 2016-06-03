@@ -1,0 +1,73 @@
+extends layout.jade
+		.cont-hero
+			.hero
+				.container
+					.row
+						.col-sm-2
+							.defaul
+								p Defaul Welcome Msg!
+						.col-sm-10
+							.leng
+								nav.navbar.pull-right( role="navigation" )
+									ul.nav.navbar-nav
+										li
+											img(src="images/flag1.png")
+										li.dropdown
+											a.dropdown-toggle( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) Lenguage
+												span.caret
+											ul.dropdown-menu( role="menu" )
+												li
+													a( href="#" ) English
+														img(src="images/flag1.png").pull-left
+												li
+													a( href="#" ) Fances
+														img(src="images/flag2.png").pull-left
+
+										li.dropdown
+											a.dropdown-toggle.ion-social-usd( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 Currency
+												span.caret
+											ul.dropdown-menu( role="menu" )
+												li: a( href="#" ) &#8364 Euro
+												li: a( href="#" ) &#36 Dolar
+												li: a( href="#" ) &#8364 Pesos
+
+										li.dropdown
+											a.dropdown-toggle.ion-android-person( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) &#160 My Account
+												span.caret
+											ul.dropdown-menu( role="menu" )
+												li: a( href="#" ) &#174 Register
+												li: a( href="#" ) &#64 Login
+		.hero-2
+				.container
+					.col-sm-4
+						.opentime
+							i.ion-ios-clock-outline.pull-left
+							P OPWNING TIME
+							small 9.00 AM
+					.col-sm-4
+						.logo
+							img(src="images/logo.png")
+
+					.col-sm-4
+						.search
+							.from-group.pull-right
+								input.from-control(type="text",placeholder="search")
+								button.btn.ion-ios-search-strong(type="submit")
+			
+		.menu
+			.container
+				.row
+					.col-sm-9
+						nav
+							ul.nav.navbar-nav
+								li.active
+									a(href="#") HOME
+								li
+									a(href="#") CONTACTUS
+					.col-sm-3
+						.pull-right
+							button.btn.dropdown-toggle(type="button")
+								i.ion-ios-cart.pull-left
+								span My Cart
+								br
+								small 2 items!-$244 00
